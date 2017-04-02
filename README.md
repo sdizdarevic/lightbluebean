@@ -46,4 +46,4 @@ bean program_sketch .pioenvs/lightblue-bean/firmware.hex -n bean01
 
 The code with generated ready-to-upload hex file is located on my github repository (link below). It is really simple now to send data from photosensor to your Android-based phone.
 
-![img](https://halckemy.s3.amazonaws.com/uploads/attachments/283037/untitled1_2E0raaVMal.png)
+![img](https://www.dropbox.com/s/0lxev3ypk4y9xu1/Untitled1.png?dl=0
