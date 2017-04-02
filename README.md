@@ -1,6 +1,7 @@
 # lightbluebean
 Lightblue-Bean photoresistor project
 In this project I am going to show you how to use photoresistor with lightblue bean with analog voltage reading method. The connection diagram of photosensor connecton to microcontroller is actually simple, and it is shown below:
+
 ![img](https://hackster.imgix.net/uploads/attachments/283025/light_cdsanasch_av297y5KL5.gif?auto=compress%2Cformat&w=680&h=510&fit=max)
 
 
@@ -36,9 +37,13 @@ The Bean Loader CLI provides a command to upload sketches. If you use the Arduin
 
 bean program_sketch led -n bean01
 
+
+
 Ok, but actually you need only to parse a path to HEX file to bean command which actually uploads hex file to the lightblue-bean. So, PlatformIO generates also a hex file, which you can find in .pioenvs/lightblue-bean/firmware.hex project folder. So, to upload HEX file generated from PlatformIO you need to type the command:
 
 bean program_sketch .pioenvs/lightblue-bean/firmware.hex -n bean01
-
+![img](https://hackster.imgix.net/uploads/attachments/283040/untitled_AAdcevV5gs.png?auto=compress%2Cformat&w=1280&h=960&fit=max)
 
 The code with generated ready-to-upload hex file is located on my github repository (link below). It is really simple now to send data from photosensor to your Android-based phone.
+
+![img](https://halckemy.s3.amazonaws.com/uploads/attachments/283037/untitled1_2E0raaVMal.png)
