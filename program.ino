@@ -4,7 +4,7 @@ Connect one end of the photocell to Vcc, the other end to Analog 0.
 Then connect one end of a 10K resistor from Analog 0 to ground. 
  
  */
- 
+#include<Arduino.h> 
 int photocellPin = 0;     // the photocellcell and 10K pulldown are connected to analog port a0
 int photocellReading;     // the analog reading from the sensor  
  void setup(void) {
